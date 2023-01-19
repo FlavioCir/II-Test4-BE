@@ -96,7 +96,7 @@ public class Main1 {
         	&& o.getDataOrdine().isBefore(LocalDate.of(2021, 04, 01))
         	&& o.getCliente().getLivello() == 2)
         	.forEach((o) -> System.out.println(o));
-        
+      
 	}
 
 }
