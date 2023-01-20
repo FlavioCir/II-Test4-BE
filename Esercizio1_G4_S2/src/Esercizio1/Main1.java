@@ -53,13 +53,13 @@ public class Main1 {
 		Cliente c2 = new Cliente(2, "Anna Bianchi", 2);
 		Cliente c3 = new Cliente(3, "Gino Blue", 1);
 		Cliente c4 = new Cliente(4, "Marco Neri", 2);
-		Cliente c5 = new Cliente(4, "Nicola Verdi", 2);
+		Cliente c5 = new Cliente(5, "Nicola Verdi", 2);
 		
 		Ordine o1 = new Ordine(1, "In cosenga", LocalDate.now(), LocalDate.of(2023, 01, 23), ordine1, c1);
 		Ordine o2 = new Ordine(2, "In cosenga", LocalDate.of(2021, 03, 01), LocalDate.of(2023, 01, 21), ordine2, c2);
 		Ordine o3 = new Ordine(3, "In cosenga", LocalDate.now(), LocalDate.of(2023, 01, 22), ordine3, c3);
-		Ordine o4 = new Ordine(3, "In cosenga", LocalDate.of(2021, 02, 12), LocalDate.of(2023, 01, 18), ordine3, c4);
-		Ordine o5 = new Ordine(3, "In cosenga", LocalDate.of(2021, 01, 12), LocalDate.of(2023, 10, 03), ordine3, c5);
+		Ordine o4 = new Ordine(4, "In cosenga", LocalDate.of(2021, 02, 12), LocalDate.of(2023, 01, 18), ordine3, c4);
+		Ordine o5 = new Ordine(5, "In cosenga", LocalDate.of(2021, 01, 12), LocalDate.of(2023, 10, 03), ordine3, c5);
 		
 		//---------------------------------------------------------------------------------
 		
